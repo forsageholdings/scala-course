@@ -6,9 +6,10 @@ object Main {
 
   def main(args: Array[String]): Unit = {
 
+    print("\nYour name: ")
     val yourName = StdIn.readLine()
 
-    println(s"Hello, $yourName!")
+    println(s"\nHello, $yourName!\n")
 
   }
 }
